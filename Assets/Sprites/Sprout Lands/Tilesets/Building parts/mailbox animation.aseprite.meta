@@ -1,0 +1,2124 @@
+fileFormatVersion: 2
+guid: 0daed1401ca56c04fa8ff26315af3fe4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: mailbox animation_Frame_0
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 256
+      height: 240
+    spriteID: 3cca710d31df5714ebd1c70ecac8c76a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: mailbox animation_Frame_1
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 252
+      width: 256
+      height: 240
+    spriteID: 11161dddbba67804bb421f063f213a39
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 252}
+  - name: mailbox animation_Frame_2
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 500
+      width: 256
+      height: 240
+    spriteID: 301e9af8bc6db604abb89ceec25c17ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 500}
+  - name: mailbox animation_Frame_3
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 748
+      width: 256
+      height: 240
+    spriteID: cf1731fbcdfb6ce4a86de7eec6773d17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 748}
+  - name: mailbox animation_Frame_4
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 996
+      width: 256
+      height: 240
+    spriteID: 27ed9afb87f06944ea8a9ac8d04cbf0e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 996}
+  - name: mailbox animation_Frame_5
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1244
+      width: 256
+      height: 240
+    spriteID: ea038c0af6d601344a8fb31e6b6901a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1244}
+  - name: mailbox animation_Frame_6
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1492
+      width: 256
+      height: 240
+    spriteID: 524e19083554c0a47b01b1d0ea3b636c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1492}
+  - name: mailbox animation_Frame_7
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1740
+      width: 256
+      height: 240
+    spriteID: c1e51897fea1b3a47890ac1faf150559
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1740}
+  - name: mailbox animation_Frame_8
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1988
+      width: 256
+      height: 240
+    spriteID: 8762fc35972e4e14fb1292ad49cbaa93
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1988}
+  - name: mailbox animation_Frame_9
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2236
+      width: 256
+      height: 240
+    spriteID: 84e24c3565f81c14e8bdeb1cfbcc0f6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2236}
+  - name: mailbox animation_Frame_10
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2484
+      width: 256
+      height: 240
+    spriteID: aa68375a98a3c294b9155513e2d315ab
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2484}
+  - name: mailbox animation_Frame_11
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2732
+      width: 256
+      height: 240
+    spriteID: 6256cf12351b34548ba7930457efe2c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2732}
+  - name: mailbox animation_Frame_12
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2980
+      width: 256
+      height: 240
+    spriteID: 296ce1f9d738c4b4392f6ce43ff0c2c0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2980}
+  - name: mailbox animation_Frame_13
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3228
+      width: 256
+      height: 240
+    spriteID: b788251baaad3d641827dbb35cd7d349
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3228}
+  - name: mailbox animation_Frame_14
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3476
+      width: 256
+      height: 240
+    spriteID: 17f6f3d6f3371be40848ce42abe4dc54
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3476}
+  - name: mailbox animation_Frame_15
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3724
+      width: 256
+      height: 240
+    spriteID: 12cc6199817265a45af8f70737cf0d58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3724}
+  - name: mailbox animation_Frame_16
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 4
+      width: 256
+      height: 240
+    spriteID: 2edad26d2748cb64f89c4e5c912f2125
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 4}
+  - name: mailbox animation_Frame_17
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 252
+      width: 256
+      height: 240
+    spriteID: a81a25e0a5b5eb247b131b4b7535a2dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 252}
+  - name: mailbox animation_Frame_18
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 500
+      width: 256
+      height: 240
+    spriteID: 72b27be885084ac40a1eddefd3e68a37
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 500}
+  - name: mailbox animation_Frame_19
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 748
+      width: 256
+      height: 240
+    spriteID: a74ba080911b8e84b9a9e996585a2945
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 748}
+  - name: mailbox animation_Frame_20
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 996
+      width: 256
+      height: 240
+    spriteID: 594dcc0dc274f304db6fc32657279f38
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 996}
+  - name: mailbox animation_Frame_21
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1244
+      width: 256
+      height: 240
+    spriteID: b545af84f79c9c44d9c9dec1fe8424b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1244}
+  - name: mailbox animation_Frame_22
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1492
+      width: 256
+      height: 240
+    spriteID: 154f07b2fca85994b846ac7bd9c29909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1492}
+  - name: mailbox animation_Frame_23
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1740
+      width: 256
+      height: 240
+    spriteID: cfe6d84a7d0fe534b9d7f33d8dc7abb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1740}
+  - name: mailbox animation_Frame_24
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 1988
+      width: 256
+      height: 240
+    spriteID: 4b3919979010c2247baace28557fd670
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 1988}
+  - name: mailbox animation_Frame_25
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2236
+      width: 256
+      height: 240
+    spriteID: 799f62d9af6d8d746a9ddff4b743a36f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2236}
+  - name: mailbox animation_Frame_26
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2484
+      width: 256
+      height: 240
+    spriteID: d28b4a1a90b524d4193bef0f8d3ed6ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2484}
+  - name: mailbox animation_Frame_27
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2732
+      width: 256
+      height: 240
+    spriteID: 5b590e1c6e2b751419cf4d9f7dfa85fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2732}
+  - name: mailbox animation_Frame_28
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 2980
+      width: 256
+      height: 240
+    spriteID: 981e3746184d6d14084fe3f051c3b137
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 2980}
+  - name: mailbox animation_Frame_29
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3228
+      width: 256
+      height: 240
+    spriteID: ee5fb0e6a20dc154b9415a1ac7741357
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3228}
+  - name: mailbox animation_Frame_30
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3476
+      width: 256
+      height: 240
+    spriteID: fdade5bc477589947a2fb80f6977b1c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3476}
+  - name: mailbox animation_Frame_31
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 268
+      y: 3724
+      width: 256
+      height: 240
+    spriteID: 99387f9738ea6764aa7ea15033442f8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 268, y: 3724}
+  - name: mailbox animation_Frame_32
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 4
+      width: 256
+      height: 240
+    spriteID: 8159eae7f217bc045aed97f9c5efc3ee
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 4}
+  - name: mailbox animation_Frame_33
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 252
+      width: 256
+      height: 240
+    spriteID: f22d9e58f547b4d4c867412e00545094
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 252}
+  - name: mailbox animation_Frame_34
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 500
+      width: 256
+      height: 240
+    spriteID: 837405b072f15b9448c73334da8ec3d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 500}
+  - name: mailbox animation_Frame_35
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 748
+      width: 256
+      height: 240
+    spriteID: d97ec3abbb5881d4bae8f450e694e488
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 748}
+  - name: mailbox animation_Frame_36
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 996
+      width: 256
+      height: 240
+    spriteID: 492fb1ff2e403be4c977f577e98cdc51
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 996}
+  - name: mailbox animation_Frame_37
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1244
+      width: 256
+      height: 240
+    spriteID: aa6c1dd9d03859749827516d58d8b1a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1244}
+  - name: mailbox animation_Frame_38
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1492
+      width: 256
+      height: 240
+    spriteID: 077c789ee5239e14b8dcdf235bab9178
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1492}
+  - name: mailbox animation_Frame_39
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1740
+      width: 256
+      height: 240
+    spriteID: 59ffe3ccbe703ee498523e07907475d1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1740}
+  - name: mailbox animation_Frame_40
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 1988
+      width: 256
+      height: 240
+    spriteID: 5e83c042e464e374eb5c328b57ce7482
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 1988}
+  - name: mailbox animation_Frame_41
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2236
+      width: 256
+      height: 240
+    spriteID: e3206bb0046cf4742ab6592436e6b139
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2236}
+  - name: mailbox animation_Frame_42
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2484
+      width: 256
+      height: 240
+    spriteID: b74ed5eb489251c44879934e43d8c944
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2484}
+  - name: mailbox animation_Frame_43
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2732
+      width: 256
+      height: 240
+    spriteID: f86371d8cf18aaf408998be470209d3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2732}
+  - name: mailbox animation_Frame_44
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 2980
+      width: 256
+      height: 240
+    spriteID: c3801ff85276cc148a1fe41437e25065
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 2980}
+  - name: mailbox animation_Frame_45
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3228
+      width: 256
+      height: 240
+    spriteID: 9b383699e8f73a0409e4e4657624fad9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3228}
+  - name: mailbox animation_Frame_46
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3476
+      width: 256
+      height: 240
+    spriteID: fc05bc10da4672345a4a8f9b9c03c4ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3476}
+  - name: mailbox animation_Frame_47
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 532
+      y: 3724
+      width: 256
+      height: 240
+    spriteID: 6aac50b292305f24aa7c60e42828299b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 532, y: 3724}
+  - name: mailbox animation_Frame_48
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 4
+      width: 256
+      height: 240
+    spriteID: fd188eb5fb3bba44a84584ab53475f72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 4}
+  - name: mailbox animation_Frame_49
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 252
+      width: 256
+      height: 240
+    spriteID: 256fcec9418b11b4486b6902bf893ed4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 252}
+  - name: mailbox animation_Frame_50
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 500
+      width: 256
+      height: 240
+    spriteID: fe44b696149865c42b0ec5f6ec624f63
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 500}
+  - name: mailbox animation_Frame_51
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 748
+      width: 256
+      height: 240
+    spriteID: 5de9d56498b07f54d8f6dbc24b3159a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 748}
+  - name: mailbox animation_Frame_52
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 996
+      width: 256
+      height: 240
+    spriteID: 27dbae1b0965f904da98d645222b8f6b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 996}
+  - name: mailbox animation_Frame_53
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1244
+      width: 256
+      height: 240
+    spriteID: 4e703bef17f9f6646a0b9f5c61b474f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1244}
+  - name: mailbox animation_Frame_54
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1492
+      width: 256
+      height: 240
+    spriteID: 8a97b698c2f95554fa1eb42d528f1d22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1492}
+  - name: mailbox animation_Frame_55
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1740
+      width: 256
+      height: 240
+    spriteID: 6ecf79a1caba9ba4fbe279bcd4fc26a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1740}
+  - name: mailbox animation_Frame_56
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 1988
+      width: 256
+      height: 240
+    spriteID: a4181aa17386a2c43b0c66c96a1b54dd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 1988}
+  - name: mailbox animation_Frame_57
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2236
+      width: 256
+      height: 240
+    spriteID: 0d83d7c595fb8af4fab64ad7cf78afda
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2236}
+  - name: mailbox animation_Frame_58
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2484
+      width: 256
+      height: 240
+    spriteID: cd454ae70ef71d84da50cf7c99235217
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2484}
+  - name: mailbox animation_Frame_59
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2732
+      width: 256
+      height: 240
+    spriteID: 96227f2601386074faa920bd0b891343
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2732}
+  - name: mailbox animation_Frame_60
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 2980
+      width: 256
+      height: 240
+    spriteID: ed177ffab17f7f248b6a8ec465037e7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 2980}
+  - name: mailbox animation_Frame_61
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3228
+      width: 256
+      height: 240
+    spriteID: 4a48f2d1fa533cc43bf0723e09bb8305
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3228}
+  - name: mailbox animation_Frame_62
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3476
+      width: 256
+      height: 240
+    spriteID: 8f388fe2e824d8740b00d7a2c4c9d6a0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3476}
+  - name: mailbox animation_Frame_63
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 796
+      y: 3724
+      width: 256
+      height: 240
+    spriteID: 46a30a06fdd7e094a9bf04e83b202dbc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 796, y: 3724}
+  - name: mailbox animation_Frame_64
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 4
+      width: 256
+      height: 240
+    spriteID: 84c7d26998191c347bd8f3cd42c17058
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 4}
+  - name: mailbox animation_Frame_65
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 252
+      width: 256
+      height: 240
+    spriteID: 014cdfcb3b68a264d80978671afbe67c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 252}
+  - name: mailbox animation_Frame_66
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 500
+      width: 256
+      height: 240
+    spriteID: a8ff3956891ed0d49a2c7f19019300c1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 500}
+  - name: mailbox animation_Frame_67
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 748
+      width: 256
+      height: 240
+    spriteID: ebfa7d8537771d94d8be49c1633c6978
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 748}
+  - name: mailbox animation_Frame_68
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 996
+      width: 256
+      height: 240
+    spriteID: bf5b9e415ef3aa84695c2f075a102b31
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 996}
+  - name: mailbox animation_Frame_69
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1244
+      width: 256
+      height: 240
+    spriteID: 8cc50f91d1511be4cad0f6689da9af6c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1244}
+  - name: mailbox animation_Frame_70
+    originalName: 
+    pivot: {x: 0.53125, y: 0.20000002}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1060
+      y: 1492
+      width: 256
+      height: 240
+    spriteID: 115fabdea1089364bb2d2078c04c15b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1060, y: 1492}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1421019344
+    name: mailbox animation
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: mailbox animation_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 3cca710d31df5714ebd1c70ecac8c76a
+    - name: mailbox animation_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 11161dddbba67804bb421f063f213a39
+    - name: mailbox animation_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 301e9af8bc6db604abb89ceec25c17ff
+    - name: mailbox animation_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: cf1731fbcdfb6ce4a86de7eec6773d17
+    - name: mailbox animation_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 27ed9afb87f06944ea8a9ac8d04cbf0e
+    - name: mailbox animation_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: ea038c0af6d601344a8fb31e6b6901a0
+    - name: mailbox animation_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 524e19083554c0a47b01b1d0ea3b636c
+    - name: mailbox animation_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: c1e51897fea1b3a47890ac1faf150559
+    - name: mailbox animation_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 8762fc35972e4e14fb1292ad49cbaa93
+    - name: mailbox animation_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 84e24c3565f81c14e8bdeb1cfbcc0f6a
+    - name: mailbox animation_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: aa68375a98a3c294b9155513e2d315ab
+    - name: mailbox animation_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 6256cf12351b34548ba7930457efe2c7
+    - name: mailbox animation_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 296ce1f9d738c4b4392f6ce43ff0c2c0
+    - name: mailbox animation_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: b788251baaad3d641827dbb35cd7d349
+    - name: mailbox animation_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 17f6f3d6f3371be40848ce42abe4dc54
+    - name: mailbox animation_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 12cc6199817265a45af8f70737cf0d58
+    - name: mailbox animation_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 2edad26d2748cb64f89c4e5c912f2125
+    - name: mailbox animation_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: a81a25e0a5b5eb247b131b4b7535a2dd
+    - name: mailbox animation_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 72b27be885084ac40a1eddefd3e68a37
+    - name: mailbox animation_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: a74ba080911b8e84b9a9e996585a2945
+    - name: mailbox animation_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 594dcc0dc274f304db6fc32657279f38
+    - name: mailbox animation_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: b545af84f79c9c44d9c9dec1fe8424b7
+    - name: mailbox animation_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 154f07b2fca85994b846ac7bd9c29909
+    - name: mailbox animation_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: cfe6d84a7d0fe534b9d7f33d8dc7abb8
+    - name: mailbox animation_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 4b3919979010c2247baace28557fd670
+    - name: mailbox animation_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 799f62d9af6d8d746a9ddff4b743a36f
+    - name: mailbox animation_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: d28b4a1a90b524d4193bef0f8d3ed6ee
+    - name: mailbox animation_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 5b590e1c6e2b751419cf4d9f7dfa85fd
+    - name: mailbox animation_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 981e3746184d6d14084fe3f051c3b137
+    - name: mailbox animation_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: ee5fb0e6a20dc154b9415a1ac7741357
+    - name: mailbox animation_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: fdade5bc477589947a2fb80f6977b1c6
+    - name: mailbox animation_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 99387f9738ea6764aa7ea15033442f8b
+    - name: mailbox animation_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 8159eae7f217bc045aed97f9c5efc3ee
+    - name: mailbox animation_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: f22d9e58f547b4d4c867412e00545094
+    - name: mailbox animation_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 837405b072f15b9448c73334da8ec3d1
+    - name: mailbox animation_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: d97ec3abbb5881d4bae8f450e694e488
+    - name: mailbox animation_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 492fb1ff2e403be4c977f577e98cdc51
+    - name: mailbox animation_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: aa6c1dd9d03859749827516d58d8b1a3
+    - name: mailbox animation_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 077c789ee5239e14b8dcdf235bab9178
+    - name: mailbox animation_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 59ffe3ccbe703ee498523e07907475d1
+    - name: mailbox animation_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 5e83c042e464e374eb5c328b57ce7482
+    - name: mailbox animation_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: e3206bb0046cf4742ab6592436e6b139
+    - name: mailbox animation_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: b74ed5eb489251c44879934e43d8c944
+    - name: mailbox animation_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: f86371d8cf18aaf408998be470209d3b
+    - name: mailbox animation_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: c3801ff85276cc148a1fe41437e25065
+    - name: mailbox animation_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 9b383699e8f73a0409e4e4657624fad9
+    - name: mailbox animation_Frame_46
+      frameIndex: 46
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: fc05bc10da4672345a4a8f9b9c03c4ef
+    - name: mailbox animation_Frame_47
+      frameIndex: 47
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 6aac50b292305f24aa7c60e42828299b
+    - name: mailbox animation_Frame_48
+      frameIndex: 48
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: fd188eb5fb3bba44a84584ab53475f72
+    - name: mailbox animation_Frame_49
+      frameIndex: 49
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 256fcec9418b11b4486b6902bf893ed4
+    - name: mailbox animation_Frame_50
+      frameIndex: 50
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: fe44b696149865c42b0ec5f6ec624f63
+    - name: mailbox animation_Frame_51
+      frameIndex: 51
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 5de9d56498b07f54d8f6dbc24b3159a2
+    - name: mailbox animation_Frame_52
+      frameIndex: 52
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 27dbae1b0965f904da98d645222b8f6b
+    - name: mailbox animation_Frame_53
+      frameIndex: 53
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 4e703bef17f9f6646a0b9f5c61b474f3
+    - name: mailbox animation_Frame_54
+      frameIndex: 54
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 8a97b698c2f95554fa1eb42d528f1d22
+    - name: mailbox animation_Frame_55
+      frameIndex: 55
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 6ecf79a1caba9ba4fbe279bcd4fc26a2
+    - name: mailbox animation_Frame_56
+      frameIndex: 56
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: a4181aa17386a2c43b0c66c96a1b54dd
+    - name: mailbox animation_Frame_57
+      frameIndex: 57
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 0d83d7c595fb8af4fab64ad7cf78afda
+    - name: mailbox animation_Frame_58
+      frameIndex: 58
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: cd454ae70ef71d84da50cf7c99235217
+    - name: mailbox animation_Frame_59
+      frameIndex: 59
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 96227f2601386074faa920bd0b891343
+    - name: mailbox animation_Frame_60
+      frameIndex: 60
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: ed177ffab17f7f248b6a8ec465037e7b
+    - name: mailbox animation_Frame_61
+      frameIndex: 61
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 4a48f2d1fa533cc43bf0723e09bb8305
+    - name: mailbox animation_Frame_62
+      frameIndex: 62
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 8f388fe2e824d8740b00d7a2c4c9d6a0
+    - name: mailbox animation_Frame_63
+      frameIndex: 63
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 46a30a06fdd7e094a9bf04e83b202dbc
+    - name: mailbox animation_Frame_64
+      frameIndex: 64
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 84c7d26998191c347bd8f3cd42c17058
+    - name: mailbox animation_Frame_65
+      frameIndex: 65
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 014cdfcb3b68a264d80978671afbe67c
+    - name: mailbox animation_Frame_66
+      frameIndex: 66
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: a8ff3956891ed0d49a2c7f19019300c1
+    - name: mailbox animation_Frame_67
+      frameIndex: 67
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: ebfa7d8537771d94d8be49c1633c6978
+    - name: mailbox animation_Frame_68
+      frameIndex: 68
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: bf5b9e415ef3aa84695c2f075a102b31
+    - name: mailbox animation_Frame_69
+      frameIndex: 69
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 8cc50f91d1511be4cad0f6689da9af6c
+    - name: mailbox animation_Frame_70
+      frameIndex: 70
+      cellRect:
+        x: -64
+        y: -48
+        width: 256
+        height: 240
+      spriteId: 115fabdea1089364bb2d2078c04c15b9
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 144, y: 144}
