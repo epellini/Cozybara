@@ -547,7 +547,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &422204184
 Transform:
   m_ObjectHideFlags: 0
@@ -2254,7 +2254,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &940054890
 Transform:
   m_ObjectHideFlags: 0
@@ -20832,7 +20832,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &998347352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24426,6 +24426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3772608581180670212, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4791029862809869384, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -24468,18 +24472,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6509797343403822366, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_Size.x
-      value: 0.875
+      value: 0.6875
       objectReference: {fileID: 0}
     - target: {fileID: 6509797343403822366, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_Size.y
-      value: 0.6875
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 6509797343403822366, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2103754848, guid: 263bf1f526022584398e22918c0f35b3, type: 3}
+      objectReference: {fileID: 504690067, guid: dc9a4e92b3954bc4a978d5f3a69c1ee7, type: 3}
+    - target: {fileID: 6509797343403822366, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6509797343403822366, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_SpriteSortPoint
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509797343403822366, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
+      propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7401506623055293434, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
