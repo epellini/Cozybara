@@ -44,17 +44,17 @@ public class HealthBar : MonoBehaviour
     private void Start(){
         //Button listener for hunger
         Button btnFeed = Feed.GetComponent<Button>();
-        btnFeed.onClick.AddListener(Cappy_Feed);
+        //btnFeed.onClick.AddListener(Cappy_Feed);
 
         //Button Listerner for Playtime
          Button btnPlay = Play.GetComponent<Button>();
-        btnPlay.onClick.AddListener(Cappy_Play);
+        //btnPlay.onClick.AddListener(Cappy_Play);
 
         Button btnSleep = Sleep.GetComponent<Button>();
-        btnSleep.onClick.AddListener(Cappy_Sleep);
+        //btnSleep.onClick.AddListener(Cappy_Sleep);
 
         Button btnClean = Clean.GetComponent<Button>();
-        btnClean.onClick.AddListener(Cappy_Clean );
+        //btnClean.onClick.AddListener(Cappy_Clean );
 
         
     
@@ -154,30 +154,30 @@ public class HealthBar : MonoBehaviour
 
 
     private void UpdateHungerBar(){
-        float ratio = hunger / max;
-        currentHungry.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        HungryText.text = (ratio * 100).ToString("0") + '%';
+        //float ratio = hunger / max;
+       // currentHungry.rectTransform.localScale = new Vector3(ratio, 1, 1);
+       // HungryText.text = (ratio * 100).ToString("0") + '%';
 
     }
 
         private void  UpdateBoredBar(){
-        float ratio = hunger / max;
-        currentBored.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        BoredText.text = (ratio * 100).ToString("0") + '%';
+        //float ratio = hunger / max;
+        //currentBored.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        //BoredText.text = (ratio * 100).ToString("0") + '%';
 
     }
 
         private void UpdateEnergyBar(){
-        float ratio = hunger / max;
-        currentTired.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        TiredText.text = (ratio * 100).ToString("0") + '%';
+        //float ratio = hunger / max;
+        //currentTired.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        //TiredText.text = (ratio * 100).ToString("0") + '%';
 
     }
 
         private void UpdateDirtyBar(){
-        float ratio = hunger / max;
-        currentDirty.rectTransform.localScale = new Vector3(ratio, 1, 1);
-        CleanText.text = (ratio * 100).ToString("0") + '%';
+        //float ratio = hunger / max;
+        //currentDirty.rectTransform.localScale = new Vector3(ratio, 1, 1);
+        //CleanText.text = (ratio * 100).ToString("0") + '%';
 
     } 
 
