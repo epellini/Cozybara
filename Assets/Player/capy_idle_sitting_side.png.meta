@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 587ba6f602d3de648a9b03db498ed588
+guid: 8a6b0b6247fa4cf4f9f1f490ee58f90a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: capy_walking_forward_0
+      name: capy_idle_sitting_side_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 1
-        width: 9
-        height: 13
+        x: 1
+        y: 2
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1555a626cca87cb43969d099d8929385
-      internalID: -1320191685
+      spriteID: e1c9cf55dadbdb646a6bcb89a3128629
+      internalID: 194887119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: capy_walking_forward_1
+      name: capy_idle_sitting_side_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1
-        width: 9
-        height: 12
+        x: 18
+        y: 2
+        width: 14
+        height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,29 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc485716a16ddcb46a91b8300ba8ce26
-      internalID: -1290658931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: capy_walking_forward_2
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 1
-        width: 9
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e855ad51fc81b9f4ea9f7660f601a481
-      internalID: -1136391712
+      spriteID: 16229f2e826041f42810cc391769677a
+      internalID: -478714538
       vertices: []
       indices: 
       edges: []
@@ -209,9 +188,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      capy_walking_forward_0: -1320191685
-      capy_walking_forward_1: -1290658931
-      capy_walking_forward_2: -1136391712
+      capy_idle_sitting_side_0: 194887119
+      capy_idle_sitting_side_1: -478714538
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: da1eeb162857da84e862f8edceede718
+guid: 7c0820a70dc283943aedb36589c40aae
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -107,6 +107,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -126,10 +139,10 @@ TextureImporter:
       name: capy_walking_back_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 2
-        width: 11
-        height: 11
+        x: 3
+        y: 1
+        width: 9
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,8 +150,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7152d57b6a40f0847b137e75b3df0a3a
-      internalID: -222811331
+      spriteID: 3e293c252cfbbff46a8279e80de79224
+      internalID: 1879261355
       vertices: []
       indices: 
       edges: []
@@ -148,9 +161,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 19
-        y: 2
-        width: 11
-        height: 11
+        y: 1
+        width: 9
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,8 +171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5fa1725466036a4794166c80947a38c
-      internalID: -1082693050
+      spriteID: 1d1f9dcf7a2f2664f80839e55d2735e2
+      internalID: -1813683828
       vertices: []
       indices: 
       edges: []
@@ -168,10 +181,10 @@ TextureImporter:
       name: capy_walking_back_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 2
-        width: 11
-        height: 11
+        x: 35
+        y: 1
+        width: 9
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,8 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f1b7f4ec15cae04099c5fac3300c18b
-      internalID: -1993051146
+      spriteID: 63f7a9fd02516d341b8fd23f2d337297
+      internalID: -567448551
       vertices: []
       indices: 
       edges: []
@@ -196,9 +209,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      capy_walking_back_0: -222811331
-      capy_walking_back_1: -1082693050
-      capy_walking_back_2: -1993051146
+      capy_walking_back_0: 1879261355
+      capy_walking_back_1: -1813683828
+      capy_walking_back_2: -567448551
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
