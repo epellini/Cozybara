@@ -2136,7 +2136,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.422681
+  orthographic size: 120
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2181,7 +2181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AssetsPPU: 16
   m_RefResolutionX: 320
-  m_RefResolutionY: 180
+  m_RefResolutionY: 240
   m_UpscaleRT: 0
   m_PixelSnapping: 1
   m_CropFrameX: 0
@@ -63136,7 +63136,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 6
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -63371,8 +63371,8 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 10
     m_Data: {fileID: -1355384312, guid: 7d542c0486b1804439db4ffa233fa50e, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -777454070, guid: 7d542c0486b1804439db4ffa233fa50e, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 8
     m_Data: {fileID: -2017807303, guid: 7d542c0486b1804439db4ffa233fa50e, type: 3}
   - m_RefCount: 4
@@ -63381,8 +63381,8 @@ Tilemap:
     m_Data: {fileID: -1702873149, guid: 7d542c0486b1804439db4ffa233fa50e, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: -1631954629, guid: 7d542c0486b1804439db4ffa233fa50e, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: -777454070, guid: 7d542c0486b1804439db4ffa233fa50e, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 29
     m_Data:
@@ -63469,7 +63469,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1471862359}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 13.422681
+    OrthographicSize: 120
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
