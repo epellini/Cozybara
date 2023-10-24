@@ -102407,6 +102407,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3206828832156327397, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9fb3f4c74c603414885fed86111054e1, type: 2}
+    - target: {fileID: 3206828832156327397, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_UpdateMode
       value: 0
       objectReference: {fileID: 0}
@@ -102554,8 +102558,7 @@ PrefabInstance:
       propertyPath: m_CollisionDetection
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 7401506623055293434, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:

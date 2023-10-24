@@ -3,32 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
-// Takes and handles input and movement for a player character
 public class PlayerController : MonoBehaviour
 {
-
-    //public float moveSpeed = 5f;
-    //public Rigidbody2D rb;
-    //public Animator animator;
-
-    //Vector2 movement;
-
-    //void Update()
-    //{
-    //    movement.x = Input.GetAxisRaw("Horizontal");
-    //    movement.y = Input.GetAxisRaw("Vertical");
-
-    //    animator.SetFloat("Horizontal", movement.x);
-    //    animator.SetFloat("Vertical", movement.y);
-    //    animator.SetFloat("Speed", movement.sqrMagnitude);
-    //}
-
-    //void FixedUpdate()
-    //{
-    //    rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-    //}
-
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
@@ -50,43 +26,65 @@ public class PlayerController : MonoBehaviour
     }
 
     private void FixedUpdate()
+{
+    if (canMove)
     {
-        if (canMove)
+        bool success = false; // Define success here
+
+        // If movement input is not 0, try to move
+        if (movementInput != Vector2.zero)
         {
-            // If movement input is not 0, try to move
-            if (movementInput != Vector2.zero)
+            success = TryMove(movementInput);
+
+            if (!success)
             {
-
-                bool success = TryMove(movementInput);
-
-                if (!success)
-                {
-                    success = TryMove(new Vector2(movementInput.x, 0));
-                }
-
-                if (!success)
-                {
-                    success = TryMove(new Vector2(0, movementInput.y));
-                }
-
-                animator.SetBool("isMoving", success);
+                success = TryMove(new Vector2(movementInput.x, 0));
             }
-            else
+
+            if (!success)
             {
+                success = TryMove(new Vector2(0, movementInput.y));
+            }
+
+            // Set the animation parameters based on the movement direction
+            if (movementInput.y > 0) // Moving upwards
+            {
+                animator.SetBool("isMovingUp", true);
+                animator.SetBool("isMovingDown", false);
                 animator.SetBool("isMoving", false);
             }
-
-            // Set direction of sprite to movement direction
-            if (movementInput.x < 0)
+            else if (movementInput.y < 0) // Moving downwards
             {
-                spriteRenderer.flipX = true;
+                animator.SetBool("isMovingUp", false);
+                animator.SetBool("isMovingDown", true);
+                animator.SetBool("isMoving", false);
             }
-            else if (movementInput.x > 0)
+            else // Not moving vertically
             {
-                spriteRenderer.flipX = false;
+                animator.SetBool("isMovingUp", false);
+                animator.SetBool("isMovingDown", false);
+                animator.SetBool("isMoving", true); // Set to true for horizontal movement
             }
         }
+        else
+        {
+            // If there's no movement input, set all animation parameters to false
+            animator.SetBool("isMovingUp", false);
+            animator.SetBool("isMovingDown", false);
+            animator.SetBool("isMoving", false);
+        }
+
+        // Set direction of sprite to movement direction
+        if (movementInput.x < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (movementInput.x > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
     }
+}
 
     private bool TryMove(Vector2 direction)
     {
