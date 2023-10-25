@@ -50,7 +50,6 @@ public class HealthBar : MonoBehaviour
             backButton.onClick.AddListener(ReturnToTargetScene);
         }
 
-
     }
 
      public static HealthBar Instance
