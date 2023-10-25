@@ -19,14 +19,17 @@ public class SceneManagerScript : MonoBehaviour
     {
         // Register a callback for scene changes
         SceneManager.sceneLoaded += OnSceneLoaded;
+          DontDestroyOnLoad(gameObject);
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        Debug.Log("Loaded scene: " + scene.name);
+
         // Check the name of the loaded scene and hide objects accordingly
         switch (scene.name)
         {
-            case "Test Extra":
+            case "Menu":
                 HideObjects(objectsToHideInMenu);
                 break;
             case "Map":
@@ -48,7 +51,7 @@ public class SceneManagerScript : MonoBehaviour
                 HideObjects(objectsToHideInMinigame2);
                 break;
             default:
-                // Handle other scenes if needed
+                Debug.Log("No objects to hide for this scene: " + scene.name);
                 break;
         }
     }

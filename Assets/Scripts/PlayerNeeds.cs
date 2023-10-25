@@ -10,7 +10,7 @@ public class HealthBar : MonoBehaviour
 
      public Button backButton; // Reference to the back button in the Inspector
 
-    public string targetSceneName = "SampleScene"; 
+    public string targetSceneName = "Map"; 
 
   // Singleton instance
     private static HealthBar instance;
