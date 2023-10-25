@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 180868588}
   m_Layer: 0
   m_Name: Sponge
-  m_TagString: Untagged
+  m_TagString: Sponge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6354,6 +6354,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3772608581180670212, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
       propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 3772608581180670212, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}
+      propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4791029862809869384, guid: 69e98c3f82f0f1c4f93c98256609bf64, type: 3}

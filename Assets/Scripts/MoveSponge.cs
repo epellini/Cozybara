@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class MoveSponge : MonoBehaviour
 {
     Vector3 originalPosition;
     Vector3 lastMousePosition;
+
 
     private void Start()
     {
@@ -30,4 +32,14 @@ public class MoveSponge : MonoBehaviour
         // Reset the object's position to the original position
         transform.position = originalPosition;
     }
+
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("he");
+        }
+    }
+
 }
