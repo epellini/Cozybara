@@ -3,14 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
+
+     public Button backButton; // Reference to the back button in the Inspector
+
+    public string targetSceneName = "SampleScene"; 
+
+  // Singleton instance
+    private static HealthBar instance;
+
     public const float MaxValue = 100f; // Maxvalue of the % in the bars
 
     // UI Elements
     public Image[] needBars;        // Assign UI images for hunger, fun, energy, dirtyness in the Inspector
-    public TMP_Text[] needTexts;    // Assign TMP Text components for hunger, fun, energy, dirtyness in the Inspector
     public Image[] needIcons;       // Assign UI images for icons associated with each need in the Inspector
     public Image cappyHappyImage;   // Assign UI image for Cappy's happy state in the Inspector
     public Image cappySadImage;     // Assign UI image for Cappy's sad state in the Inspector
@@ -23,6 +31,31 @@ public class HealthBar : MonoBehaviour
     {
         InitializeUI();
         UpdateUI();
+        DontDestroyOnLoad(gameObject);
+        
+        // Singleton pattern
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            // If an instance already exists, destroy this one
+            Destroy(gameObject);
+        }
+
+        // Register a callback for the back button's click event
+        if (backButton != null)
+        {
+            backButton.onClick.AddListener(ReturnToTargetScene);
+        }
+
+
+    }
+
+     public static HealthBar Instance
+    {
+        get { return instance; }
     }
 
     private void Update()
@@ -30,6 +63,12 @@ public class HealthBar : MonoBehaviour
         UpdateNeeds();
         CheckNeeds();
         UpdateUI();
+    }
+
+    private void ReturnToTargetScene()
+    {
+        // Load the target scene
+        SceneManager.LoadScene(targetSceneName);
     }
 
     private void InitializeUI()
@@ -48,13 +87,7 @@ public class HealthBar : MonoBehaviour
 
     // Make Cappy happy from the start
     cappySadImage.gameObject.SetActive(false);
-
-       // Set initial UI values (e.g., text) if needed
-    for (int i = 0; i < needTexts.Length; i++)
-    {
-        needTexts[i].text = "100%";
-    }
-
+     
     }
 
     // Here we set how long it takes Cappy to be hungry, bored, etc.
@@ -105,15 +138,45 @@ public class HealthBar : MonoBehaviour
     }
     }
 
-    private void UpdateUI()
+private void UpdateUI()
+{
+    for (int i = 0; i < needBars.Length; i++)
     {
-        for (int i = 0; i < needBars.Length; i++)
+        float ratio = needs[i] / MaxValue;
+        needBars[i].rectTransform.localScale = new Vector3(ratio, 1, 1);
+
+        // Define color thresholds
+        float greenToOrangeThreshold = 0.7f; // Transition from green to orange below 70%
+        float orangeToRedThreshold = 0.3f;   // Transition from orange to red below 30%
+
+        Color originalColor = Color.green; // Green
+        Color orangeColor = Color.yellow;  // Orange
+        Color redColor = Color.red;        // Red
+
+        Color barColor;
+
+        if (ratio <= orangeToRedThreshold)
         {
-            float ratio = needs[i] / MaxValue;
-            needBars[i].rectTransform.localScale = new Vector3(ratio, 1, 1);
-            needTexts[i].text = (ratio * 100).ToString("0") + '%';
+            // Transition from green to orange
+            barColor = Color.Lerp(originalColor, orangeColor, (ratio / orangeToRedThreshold));
         }
+        else if (ratio <= greenToOrangeThreshold)
+        {
+            // Transition from orange to red
+            barColor = Color.Lerp(orangeColor, redColor, (ratio - orangeToRedThreshold) / (greenToOrangeThreshold - orangeToRedThreshold));
+        }
+        else
+        {
+            // Remain in green
+            barColor = originalColor;
+        }
+
+        // Invert the colors for the health bar
+        needBars[i].color = Color.Lerp(redColor, originalColor, ratio);
     }
+}
+
+
 
     public void PerformAction(int actionIndex)
     {
