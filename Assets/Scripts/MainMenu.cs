@@ -18,4 +18,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(9);
     }
+
+     public void GoToWhackMoleGame()
+    {
+        SceneManager.LoadSceneAsync(10);
+    }
 }
