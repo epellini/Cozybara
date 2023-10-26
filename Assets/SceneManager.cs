@@ -22,6 +22,16 @@ public class SceneManagerScript : MonoBehaviour
           DontDestroyOnLoad(gameObject);
     }
 
+    private void HideObjects(GameObject[] objectsToHide)
+    {
+          Debug.Log("Hiding objects...");
+
+        // Hide the specified game objects
+        foreach (var obj in objectsToHide)
+        {
+            obj.SetActive(false);
+        }
+    }
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         Debug.Log("Loaded scene: " + scene.name);
@@ -56,12 +66,4 @@ public class SceneManagerScript : MonoBehaviour
         }
     }
 
-    private void HideObjects(GameObject[] objectsToHide)
-    {
-        // Hide the specified game objects
-        foreach (var obj in objectsToHide)
-        {
-            obj.SetActive(false);
-        }
-    }
 }
