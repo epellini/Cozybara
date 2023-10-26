@@ -148,16 +148,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 45440361}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -70.76691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1578363563}
+  m_Father: {fileID: 445281146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1219, y: -3474}
+  m_AnchoredPosition: {x: 0, y: -301}
   m_SizeDelta: {x: 969.8248, y: 351.9368}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &45440363
@@ -386,6 +386,8 @@ RectTransform:
   m_Children:
   - {fileID: 682094956}
   - {fileID: 1272910045}
+  - {fileID: 45440362}
+  - {fileID: 2125417937}
   - {fileID: 1578363563}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -503,7 +505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2293, y: -3360}
+  m_AnchoredPosition: {x: -3620, y: -3360}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &930582706
@@ -640,7 +642,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 65.633545, y: 395.54388}
+  m_AnchoredPosition: {x: 0, y: 100}
   m_SizeDelta: {x: 237.2672, y: 76.9122}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1272910046
@@ -750,11 +752,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Dr. Rico
+    name: Misky
     sentences:
-    - Hi, welcome to Cozybara.
-    - This is the second sentence.
-    - Ok bye!
+    - Welcome to the charming island world of Fluffington!
+    - My name is Misky, and I'll be your guide on this cozy adventure.
+    - Ah, look at that! On your screen, you'll see a lovely egg.
+    - Meet Capy, your new capybara companion.
+    - Now, I know capybaras don't hatch from eggs in reality...
+    - but in the magical realm of games, we create our own little wonders!
+    - Capy is going to rely on you for everything.
+    - You'll need to make sure our fluffy friend gets enough sleep...
+    - enjoys delicious meals, plays fun games, and...
+    - takes soothing dips in the island's hot spring to stay squeaky clean!
+    - In Fluffington, you'll find special places like the Hot Spring...
+    - the Fun House, and Capy's cozy home.
+    - These are the spots where we'll meet all of Capy's needs.
+    - Ready for a heartwarming journey of friendship, fun, and responsibility?
+    - Let's make Capy the happiest capybara in the world!
+    - 'Tap next again to start your adventure! '
 --- !u!1 &1327109410
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +787,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1327109411
 RectTransform:
   m_ObjectHideFlags: 0
@@ -914,13 +929,11 @@ Transform:
   m_GameObject: {fileID: 1578363562}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1230.8696, y: 3179.7397, z: -70.76691}
+  m_LocalPosition: {x: 1226, y: 3201, z: -70.76691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 45440362}
   - {fileID: 930582705}
-  - {fileID: 2125417937}
   - {fileID: 1610206263}
   m_Father: {fileID: 445281146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -959,7 +972,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -842.9, y: -3359.8}
+  m_AnchoredPosition: {x: -854, y: -3387.999}
   m_SizeDelta: {x: 68.5148, y: 56.6989}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1610206264
@@ -1197,16 +1210,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125417936}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -70.76691}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1578363563}
+  m_Father: {fileID: 445281146}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1065.9087, y: -3492.817}
+  m_AnchoredPosition: {x: 147, y: -320}
   m_SizeDelta: {x: 541.8939, y: 115.6336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2125417938
@@ -1229,7 +1242,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sentences
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: fe9aaa0936dc9e04fb0d7fbf1e3f2d58, type: 2}
   m_sharedMaterial: {fileID: 209730653801589153, guid: fe9aaa0936dc9e04fb0d7fbf1e3f2d58, type: 2}
@@ -1238,8 +1251,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278992999
+  m_fontColor: {r: 0.4056604, g: 0.25008512, b: 0.047837302, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1256,8 +1269,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 43
+  m_fontSizeBase: 43
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1292,7 +1305,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 17.13739, y: -7.07843, z: 5.4764404, w: -6.475876}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
