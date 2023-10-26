@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Help.unity
     guid: 6c471aeec5140144bbd14860152d222a
+  - enabled: 1
+    path: Assets/Scenes/StackGame.unity
+    guid: da677dc2b7be67c43b95c44bf6714d2a
   m_configObjects: {}

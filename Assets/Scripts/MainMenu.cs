@@ -13,4 +13,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(8);
     }
+
+    public void GoToStackGame()
+    {
+        SceneManager.LoadSceneAsync(9);
+    }
 }
