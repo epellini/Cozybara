@@ -8,10 +8,13 @@ public class MoveSponge : MonoBehaviour
     Vector3 originalPosition;
     Vector3 lastMousePosition;
 
+     private HealthBar healthBar;
+
 
     private void Start()
     {
         originalPosition = transform.position;
+        healthBar = FindObjectOfType<HealthBar>();
     }
 
     private void OnMouseDown()
@@ -39,6 +42,11 @@ public class MoveSponge : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Debug.Log("he");
+
+            if (healthBar != null)
+            {
+                healthBar.PerformAction(3); // Trigger the cleaning action
+            }
         }
     }
 
