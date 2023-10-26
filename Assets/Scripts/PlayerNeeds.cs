@@ -9,10 +9,53 @@ public class HealthBar : MonoBehaviour
 {
 
      public Button backButton; // Reference to the back button in the Inspector
+     public Button feedButton; // Reference to the Feed button in the Inspector
 
-    public string targetSceneName = "Map"; 
+    public string targetSceneName = "Map";
 
-  // Singleton instance
+    // Add a method to toggle UI elements based on scene
+    public void ToggleUIElementsForScene(string sceneName)
+{
+    Debug.Log("Toggling UI elements for scene: " + sceneName); // Add this line for debugging
+    
+    // Check the current scene and toggle UI elements accordingly
+    if (sceneName == "Map")
+    {
+        Debug.Log("Switching to Map scene"); // Add this line for debugging
+        // Hide the back button
+        if (backButton != null)
+        {
+            backButton.gameObject.SetActive(false);
+        }
+
+        if (feedButton != null)
+        {
+            feedButton.gameObject.SetActive(true);
+        }
+
+
+    }
+    else if (sceneName == "Home")
+    {
+        Debug.Log("Switching to Home scene"); // Add this line for debugging
+        if (backButton != null)
+        {
+            backButton.gameObject.SetActive(true);
+        }
+
+        // Hide action buttons specific to the "Home" scene
+        if (feedButton != null)
+        {
+            feedButton.gameObject.SetActive(false);
+        }
+     
+        
+    }
+    
+}
+
+
+    // Singleton instance
     private static HealthBar instance;
 
     public const float MaxValue = 100f; // Maxvalue of the % in the bars
@@ -44,12 +87,6 @@ public class HealthBar : MonoBehaviour
             Destroy(gameObject);
         }
 
-        // Register a callback for the back button's click event
-        if (backButton != null)
-        {
-            backButton.onClick.AddListener(ReturnToTargetScene);
-        }
-
     }
 
      public static HealthBar Instance
@@ -64,11 +101,6 @@ public class HealthBar : MonoBehaviour
         UpdateUI();
     }
 
-    private void ReturnToTargetScene()
-    {
-        // Load the target scene
-        SceneManager.LoadScene(targetSceneName);
-    }
 
     private void InitializeUI()
     {
@@ -174,7 +206,6 @@ private void UpdateUI()
         needBars[i].color = Color.Lerp(redColor, originalColor, ratio);
     }
 }
-
 
 
     public void PerformAction(int actionIndex)
