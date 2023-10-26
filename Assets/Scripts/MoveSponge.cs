@@ -10,7 +10,6 @@ public class MoveSponge : MonoBehaviour
 
      private HealthBar healthBar;
 
-
     private void Start()
     {
         originalPosition = transform.position;
