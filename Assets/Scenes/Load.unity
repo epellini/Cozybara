@@ -498,7 +498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d31e986a6f3184b8763db2fc6ecb67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: Map
 --- !u!114 &1132206358 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3197950438865529134, guid: b64303710f174e3428275eb77daabb7d, type: 3}
@@ -518,9 +517,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 170945687353236326, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 170945687353236326, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 170945687353236326, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 572
+      objectReference: {fileID: 0}
+    - target: {fileID: 170945687353236326, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -232
+      objectReference: {fileID: 0}
     - target: {fileID: 1136360359672991970, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_SortingOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302458130363538383, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -370
       objectReference: {fileID: 0}
     - target: {fileID: 2736399978998264130, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_Name
@@ -577,6 +596,30 @@ PrefabInstance:
     - target: {fileID: 3197950438865529134, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259776370374619831, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259776370374619831, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 3259776370374619831, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473143489695531458, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6473143489695531458, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1899445868, guid: c054355229962db4a9218eb7d0e19a79, type: 3}
+    - target: {fileID: 6745383219730044074, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -290
       objectReference: {fileID: 0}
     - target: {fileID: 7211537543152403435, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_Pivot.x
@@ -658,8 +701,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9045286645274522826, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045286645274522826, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 39be080b6b991554dbffc413d3c8bfa8, type: 3}
+    - target: {fileID: 9045286645274522826, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7654071984527545406, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+    - {fileID: 8904402503494155066, guid: b64303710f174e3428275eb77daabb7d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4808408693808139314, guid: b64303710f174e3428275eb77daabb7d, type: 3}
