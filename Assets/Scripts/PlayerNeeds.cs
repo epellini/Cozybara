@@ -8,51 +8,114 @@ using UnityEngine.SceneManagement;
 public class HealthBar : MonoBehaviour
 {
 
-     public Button backButton; // Reference to the back button in the Inspector
-     public Button feedButton; // Reference to the Feed button in the Inspector
+    public Button back_btn; // Reference to the back button in the Inspector
+    public Button feed_btn; // Reference to the Feed button in the Inspector
+    public Button play_btn;
+    public Button sleep_btn;
+    public Button clean_btn;
 
     public string targetSceneName = "Map";
 
-    // Add a method to toggle UI elements based on scene
+    // METHOD THAT HIDES AND SHOWS UI OBJECTS
     public void ToggleUIElementsForScene(string sceneName)
-{
-    Debug.Log("Toggling UI elements for scene: " + sceneName); // Add this line for debugging
-    
-    // Check the current scene and toggle UI elements accordingly
-    if (sceneName == "Map")
     {
-        Debug.Log("Switching to Map scene"); // Add this line for debugging
-        // Hide the back button
-        if (backButton != null)
-        {
-            backButton.gameObject.SetActive(false);
-        }
+        Debug.Log("Toggling UI elements for scene: " + sceneName);
 
-        if (feedButton != null)
+        // MAP SCENE
+        if (sceneName == "Map")
         {
-            feedButton.gameObject.SetActive(true);
-        }
+            Debug.Log("Switching to Map scene");
 
+            if (back_btn != null)
+            {
+                back_btn.gameObject.SetActive(false);
+            }
+
+            if (feed_btn != null)
+            {
+                feed_btn.gameObject.SetActive(false);
+            }
+
+            if (play_btn != null)
+            {
+                play_btn.gameObject.SetActive(false);
+            }
+
+            if (sleep_btn != null)
+            {
+                sleep_btn.gameObject.SetActive(false);
+            }
+
+            if (clean_btn != null)
+            {
+                clean_btn.gameObject.SetActive(false);
+            }
+
+        }
+        // HOME SCENE
+        if (sceneName == "Home")
+        {
+            Debug.Log("Switching to Home scene");
+
+            if (back_btn != null)
+            {
+                back_btn.gameObject.SetActive(true);
+            }
+
+            if (feed_btn != null)
+            {
+                feed_btn.gameObject.SetActive(true);
+            }
+
+            if (play_btn != null)
+            {
+                play_btn.gameObject.SetActive(false);
+            }
+
+            if (sleep_btn != null)
+            {
+                sleep_btn.gameObject.SetActive(true);
+            }
+
+            if (clean_btn != null)
+            {
+                clean_btn.gameObject.SetActive(false);
+            }
+
+        }
+        // HOT SPRING SCENE
+        if (sceneName == "HotSpring")
+        {
+            Debug.Log("Switching to Hotspring scene");
+
+            if (back_btn != null)
+            {
+                back_btn.gameObject.SetActive(true);
+            }
+
+            if (feed_btn != null)
+            {
+                feed_btn.gameObject.SetActive(false);
+            }
+
+            if (play_btn != null)
+            {
+                play_btn.gameObject.SetActive(false);
+            }
+
+            if (sleep_btn != null)
+            {
+                sleep_btn.gameObject.SetActive(false);
+            }
+
+            if (clean_btn != null)
+            {
+                clean_btn.gameObject.SetActive(false);
+            }
+
+        }
 
     }
-    else if (sceneName == "Home")
-    {
-        Debug.Log("Switching to Home scene"); // Add this line for debugging
-        if (backButton != null)
-        {
-            backButton.gameObject.SetActive(true);
-        }
-
-        // Hide action buttons specific to the "Home" scene
-        if (feedButton != null)
-        {
-            feedButton.gameObject.SetActive(false);
-        }
-     
-        
-    }
-    
-}
 
 
     // Singleton instance
@@ -75,7 +138,7 @@ public class HealthBar : MonoBehaviour
         InitializeUI();
         UpdateUI();
         DontDestroyOnLoad(gameObject);
-        
+
         // Singleton pattern
         if (instance == null)
         {
@@ -89,7 +152,7 @@ public class HealthBar : MonoBehaviour
 
     }
 
-     public static HealthBar Instance
+    public static HealthBar Instance
     {
         get { return instance; }
     }
@@ -105,25 +168,25 @@ public class HealthBar : MonoBehaviour
     private void InitializeUI()
     {
         // Initialize the initial values of needs
-    for (int i = 0; i < needs.Length; i++)
-    {
-        needs[i] = MaxValue; // Set all needs to their maximum value (100%) initially
-    }
+        for (int i = 0; i < needs.Length; i++)
+        {
+            needs[i] = MaxValue; // Set all needs to their maximum value (100%) initially
+        }
 
-    // Hide all need icons initially (These icons will act like alerts to let player know Cappy is hungry, etc.)
-    for (int i = 0; i < needIcons.Length; i++)
-    {
-        needIcons[i].CrossFadeAlpha(0, 0.001f, true);
-    }
+        // Hide all need icons initially (These icons will act like alerts to let player know Cappy is hungry, etc.)
+        for (int i = 0; i < needIcons.Length; i++)
+        {
+            needIcons[i].CrossFadeAlpha(0, 0.001f, true);
+        }
 
-    // Make Cappy happy from the start
-    cappySadImage.gameObject.SetActive(false);
-     
+        // Make Cappy happy from the start
+        cappySadImage.gameObject.SetActive(false);
+
     }
 
     // Here we set how long it takes Cappy to be hungry, bored, etc.
     // The lower the number, the longer it takes for Cappy to be hungry, bored, etc
-     public float[] decreaseRates = new float[] { 0.0f, 0.0f, 0.0f, 0.0f }; // Adjust these rates as needed. (Order: Hunger, Bored, Energy, Cleanliness)
+    public float[] decreaseRates = new float[] { 0.0f, 0.0f, 0.0f, 0.0f }; // Adjust these rates as needed. (Order: Hunger, Bored, Energy, Cleanliness)
 
     private void UpdateNeeds()
     {
@@ -140,108 +203,108 @@ public class HealthBar : MonoBehaviour
     private void CheckNeeds()
     {
         // Check each need and update UI accordingly
-    for (int i = 0; i < needs.Length; i++)
-    {
-        if (needs[i] <= 50)
+        for (int i = 0; i < needs.Length; i++)
         {
-            // Show the need icon (e.g., make it visible)
-            needIcons[i].CrossFadeAlpha(1, 0.05f, true);
+            if (needs[i] <= 50)
+            {
+                // Show the need icon (e.g., make it visible)
+                needIcons[i].CrossFadeAlpha(1, 0.05f, true);
+            }
+            else
+            {
+                // Hide the need icon (e.g., make it invisible)
+                needIcons[i].CrossFadeAlpha(0, 0.05f, true);
+            }
+        }
+
+        // Check if Cappy is happy or sad based on specific conditions
+        if (needs[0] <= 60 || needs[1] <= 30 || needs[2] <= 20 || needs[3] <= 40)
+        {
+            // Cappy is sad
+            cappyHappyImage.gameObject.SetActive(false);
+            cappySadImage.gameObject.SetActive(true);
         }
         else
         {
-            // Hide the need icon (e.g., make it invisible)
-            needIcons[i].CrossFadeAlpha(0, 0.05f, true);
+            // Cappy is happy
+            cappySadImage.gameObject.SetActive(false);
+            cappyHappyImage.gameObject.SetActive(true);
         }
     }
 
-    // Check if Cappy is happy or sad based on specific conditions
-    if (needs[0] <= 60 || needs[1] <= 30 || needs[2] <= 20 || needs[3] <= 40)
+    private void UpdateUI()
     {
-        // Cappy is sad
-        cappyHappyImage.gameObject.SetActive(false);
-        cappySadImage.gameObject.SetActive(true);
-    }
-    else
-    {
-        // Cappy is happy
-        cappySadImage.gameObject.SetActive(false);
-        cappyHappyImage.gameObject.SetActive(true);
-    }
-    }
-
-private void UpdateUI()
-{
-    for (int i = 0; i < needBars.Length; i++)
-    {
-        float ratio = needs[i] / MaxValue;
-        needBars[i].rectTransform.localScale = new Vector3(ratio, 1, 1);
-
-        // Define color thresholds
-        float greenToOrangeThreshold = 0.7f; // Transition from green to orange below 70%
-        float orangeToRedThreshold = 0.3f;   // Transition from orange to red below 30%
-
-        Color originalColor = Color.green; // Green
-        Color orangeColor = Color.yellow;  // Orange
-        Color redColor = Color.red;        // Red
-
-        Color barColor;
-
-        if (ratio <= orangeToRedThreshold)
+        for (int i = 0; i < needBars.Length; i++)
         {
-            // Transition from green to orange
-            barColor = Color.Lerp(originalColor, orangeColor, (ratio / orangeToRedThreshold));
-        }
-        else if (ratio <= greenToOrangeThreshold)
-        {
-            // Transition from orange to red
-            barColor = Color.Lerp(orangeColor, redColor, (ratio - orangeToRedThreshold) / (greenToOrangeThreshold - orangeToRedThreshold));
-        }
-        else
-        {
-            // Remain in green
-            barColor = originalColor;
-        }
+            float ratio = needs[i] / MaxValue;
+            needBars[i].rectTransform.localScale = new Vector3(ratio, 1, 1);
 
-        // Invert the colors for the health bar
-        needBars[i].color = Color.Lerp(redColor, originalColor, ratio);
+            // Define color thresholds
+            float greenToOrangeThreshold = 0.7f; // Transition from green to orange below 70%
+            float orangeToRedThreshold = 0.3f;   // Transition from orange to red below 30%
+
+            Color originalColor = Color.green; // Green
+            Color orangeColor = Color.yellow;  // Orange
+            Color redColor = Color.red;        // Red
+
+            Color barColor;
+
+            if (ratio <= orangeToRedThreshold)
+            {
+                // Transition from green to orange
+                barColor = Color.Lerp(originalColor, orangeColor, (ratio / orangeToRedThreshold));
+            }
+            else if (ratio <= greenToOrangeThreshold)
+            {
+                // Transition from orange to red
+                barColor = Color.Lerp(orangeColor, redColor, (ratio - orangeToRedThreshold) / (greenToOrangeThreshold - orangeToRedThreshold));
+            }
+            else
+            {
+                // Remain in green
+                barColor = originalColor;
+            }
+
+            // Invert the colors for the health bar
+            needBars[i].color = Color.Lerp(redColor, originalColor, ratio);
+        }
     }
-}
 
 
     public void PerformAction(int actionIndex)
     {
-    switch (actionIndex)
-    {
-        case 0: // Feed action
-            needs[0] += 10; // Increase hunger
-            break;
-
-        case 1: // Play action
-            needs[1] += 10; // Increase fun
-            break;
-
-        case 2: // Sleep action
-            needs[2] += 10; // Increase energy
-            break;
-
-        case 3: // Clean action
-            needs[3] += 10; // Decrease dirtyness
-            break;
-
-        // Add more cases for additional actions as needed
-
-        default:
-            // Handle unknown action or no action
-            break;
-    }
-
-    // Ensure the needs values stay within the valid range
-    for (int i = 0; i < needs.Length; i++)
-    {
-        if (needs[i] > MaxValue)
+        switch (actionIndex)
         {
-            needs[i] = MaxValue;
+            case 0: // Feed action
+                needs[0] += 10; // Increase hunger
+                break;
+
+            case 1: // Play action
+                needs[1] += 10; // Increase fun
+                break;
+
+            case 2: // Sleep action
+                needs[2] += 10; // Increase energy
+                break;
+
+            case 3: // Clean action
+                needs[3] += 10; // Decrease dirtyness
+                break;
+
+            // Add more cases for additional actions as needed
+
+            default:
+                // Handle unknown action or no action
+                break;
         }
-    }
+
+        // Ensure the needs values stay within the valid range
+        for (int i = 0; i < needs.Length; i++)
+        {
+            if (needs[i] > MaxValue)
+            {
+                needs[i] = MaxValue;
+            }
+        }
     }
 }
