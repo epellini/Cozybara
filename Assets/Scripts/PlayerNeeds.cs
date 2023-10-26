@@ -21,6 +21,7 @@ public class HealthBar : MonoBehaviour
     {
         Debug.Log("Toggling UI elements for scene: " + sceneName);
 
+
         // MAP SCENE
         if (sceneName == "Map")
         {
@@ -113,6 +114,37 @@ public class HealthBar : MonoBehaviour
                 clean_btn.gameObject.SetActive(false);
             }
 
+        }
+
+          // Minigame Menu
+        if (sceneName == "MiniGameMenu")
+        {
+            Debug.Log("Switching to MiniGameMenu scene");
+
+            if (back_btn != null)
+            {
+                back_btn.gameObject.SetActive(true);
+            }
+
+            if (feed_btn != null)
+            {
+                feed_btn.gameObject.SetActive(false);
+            }
+
+            if (play_btn != null)
+            {
+                play_btn.gameObject.SetActive(false);
+            }
+
+            if (sleep_btn != null)
+            {
+                sleep_btn.gameObject.SetActive(false);
+            }
+
+            if (clean_btn != null)
+            {
+                clean_btn.gameObject.SetActive(false);
+            }
         }
 
     }

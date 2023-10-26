@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/HotSpring.unity
     guid: c9f4296cc95271549b9640941af0149c
   - enabled: 1
-    path: Assets/Scenes/Minigame.unity
+    path: Assets/Scenes/MiniGameMenu.unity
     guid: 82389f44aa143174da0fecbb1968acbc
   - enabled: 1
     path: Assets/Scenes/Help.unity
