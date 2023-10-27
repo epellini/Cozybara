@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
+
     public Button back_btn; // Reference to the back button in the Inspector
     public Button feed_btn; // Reference to the Feed button in the Inspector
     public Button play_btn;
