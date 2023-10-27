@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Sponge
+  - Ground
+  - NextEnemy
+  - Crocodile
   layers:
   - Default
   - TransparentFX
