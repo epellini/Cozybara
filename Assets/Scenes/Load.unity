@@ -614,8 +614,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2302458130363538383, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -59
+      objectReference: {fileID: 0}
+    - target: {fileID: 2302458130363538383, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -370
+      value: -265
       objectReference: {fileID: 0}
     - target: {fileID: 2736399978998264130, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_Name
@@ -645,6 +649,10 @@ PrefabInstance:
       propertyPath: feedButton
       value: 
       objectReference: {fileID: 688499066}
+    - target: {fileID: 2932749039140421991, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: decreaseRates.Array.data[1]
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2971672097699438659, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2

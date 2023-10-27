@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Mole : MonoBehaviour {
+
   [Header("Graphics")]
   [SerializeField] private Sprite mole;
   [SerializeField] private Sprite moleHardHat;
@@ -36,6 +37,8 @@ public class Mole : MonoBehaviour {
   private float bombRate = 0f;
   private int lives;
   private int moleIndex = 0;
+
+ 
 
   private IEnumerator ShowHide(Vector2 start, Vector2 end) {
     // Make sure we start at the start.

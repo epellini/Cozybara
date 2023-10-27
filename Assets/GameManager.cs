@@ -2,6 +2,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour {
+
+    private HealthBar healthBar;
   [SerializeField] private List<Mole> moles;
 
   [Header("UI objects")]
@@ -43,6 +45,12 @@ public class GameManager : MonoBehaviour {
   }
 
   public void GameOver(int type) {
+
+    if (healthBar != null)
+            {
+                healthBar.PerformAction(1); // Trigger the fun action
+            }
+
     // Show the message.
     if (type == 0) {
       outOfTimeText.SetActive(true);
