@@ -823,7 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2301395242450795304, guid: 91fd1f59048514c4d8d63b719b8def44, type: 3}
       propertyPath: m_Volume
-      value: 0.59
+      value: 0.39
       objectReference: {fileID: 0}
     - target: {fileID: 2301395242450795304, guid: 91fd1f59048514c4d8d63b719b8def44, type: 3}
       propertyPath: m_audioClip
@@ -888,11 +888,11 @@ PrefabInstance:
     - target: {fileID: 8802711578829659947, guid: 91fd1f59048514c4d8d63b719b8def44, type: 3}
       propertyPath: musicTracks.Array.data[0].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 0c52df73753b7814a8fc6ef83ce1f6bf, type: 3}
+      objectReference: {fileID: 8300000, guid: a7ff7276b39252d4cb5c53cd1eb90745, type: 3}
     - target: {fileID: 8802711578829659947, guid: 91fd1f59048514c4d8d63b719b8def44, type: 3}
       propertyPath: musicTracks.Array.data[1].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 0c52df73753b7814a8fc6ef83ce1f6bf, type: 3}
+      objectReference: {fileID: 8300000, guid: a7ff7276b39252d4cb5c53cd1eb90745, type: 3}
     - target: {fileID: 8802711578829659947, guid: 91fd1f59048514c4d8d63b719b8def44, type: 3}
       propertyPath: musicTracks.Array.data[2].clip
       value: 

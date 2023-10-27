@@ -14,6 +14,9 @@ public class HealthBar : MonoBehaviour
     public Button sleep_btn;
     public Button clean_btn;
 
+    public AudioClip biteSound;
+     public AudioClip sleepSound;
+
     public string targetSceneName = "Map";
 
     // METHOD THAT HIDES AND SHOWS UI OBJECTS
@@ -340,6 +343,7 @@ public class HealthBar : MonoBehaviour
         {
             case 0: // Feed action
                 needs[0] += 15; // Increase hunger
+                PlayBiteSound();
                 break;
 
             case 1: // Play action
@@ -348,6 +352,7 @@ public class HealthBar : MonoBehaviour
 
             case 2: // Sleep action
                 needs[2] += 100; // Increase energy
+                PlaySleepSound();
                 break;
 
             case 3: // Clean action
@@ -372,5 +377,28 @@ public class HealthBar : MonoBehaviour
         
     }
 
+   private void PlayBiteSound()
+{
+    // Assuming you have an AudioSource component attached to the same GameObject as this script
+    AudioSource audioSource = GetComponent<AudioSource>();
+
+    // Play the bite sound
+    if (audioSource != null && biteSound != null)
+    {
+        audioSource.PlayOneShot(biteSound);
+    }
+}
+
+ private void PlaySleepSound()
+{
+    // Assuming you have an AudioSource component attached to the same GameObject as this script
+    AudioSource audioSource = GetComponent<AudioSource>();
+
+    // Play the bite sound
+    if (audioSource != null && sleepSound != null)
+    {
+        audioSource.PlayOneShot(sleepSound);
+    }
+}
 
 }
