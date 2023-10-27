@@ -147,6 +147,37 @@ public class HealthBar : MonoBehaviour
             }
         }
 
+         // Minigame Menu
+        if (sceneName == "Whack")
+        {
+            Debug.Log("Switching to Whack scene");
+
+            if (back_btn != null)
+            {
+                back_btn.gameObject.SetActive(true);
+            }
+
+            if (feed_btn != null)
+            {
+                feed_btn.gameObject.SetActive(false);
+            }
+
+            if (play_btn != null)
+            {
+                play_btn.gameObject.SetActive(true);
+            }
+
+            if (sleep_btn != null)
+            {
+                sleep_btn.gameObject.SetActive(false);
+            }
+
+            if (clean_btn != null)
+            {
+                clean_btn.gameObject.SetActive(false);
+            }
+        }
+
     }
 
 
@@ -308,19 +339,19 @@ public class HealthBar : MonoBehaviour
         switch (actionIndex)
         {
             case 0: // Feed action
-                needs[0] += 10; // Increase hunger
+                needs[0] += 15; // Increase hunger
                 break;
 
             case 1: // Play action
-                needs[1] += 10; // Increase fun
+                needs[1] += 100; // Increase fun
                 break;
 
             case 2: // Sleep action
-                needs[2] += 10; // Increase energy
+                needs[2] += 100; // Increase energy
                 break;
 
             case 3: // Clean action
-                needs[3] += 10; // Decrease dirtyness
+                needs[3] += 8; // Decrease dirtyness
                 break;
 
             // Add more cases for additional actions as needed
