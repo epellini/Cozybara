@@ -694,12 +694,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 688499066}
     - target: {fileID: 2932749039140421991, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: decreaseRates.Array.data[0]
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932749039140421991, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: decreaseRates.Array.data[1]
-      value: 1
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2932749039140421991, guid: b64303710f174e3428275eb77daabb7d, type: 3}
+      propertyPath: decreaseRates.Array.data[2]
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2932749039140421991, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: decreaseRates.Array.data[3]
-      value: 3
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 2971672097699438659, guid: b64303710f174e3428275eb77daabb7d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
