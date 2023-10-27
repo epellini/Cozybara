@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
-using Unity.Collections;
-using System.Xml.Serialization;
-using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager audioManager;
-    public Sound[] musicSounds, sfxSounds;
-    public AudioSource musicSource, sfxSource;
+
+    public MusicTrack[] musicTracks; // Array to hold your music tracks
+    public AudioSource musicSource;
+    
+    private string currentSceneName; // To store the current scene name
 
     private void Awake()
     {
@@ -27,36 +27,46 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("Theme");
+        // Get the initial scene name
+        currentSceneName = SceneManager.GetActiveScene().name;
+        
+        // Play the music for the initial scene
+        PlayMusicForScene(currentSceneName);
     }
 
-    public void PlayMusic(string name)
+    private void OnEnable()
     {
-        Sound s = Array.Find(musicSounds, x => x.name == name);
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
 
-        if (s == null)
-        {
-            Debug.LogError("Music sound not found: " + name);
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
 
-        }
-        else
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        currentSceneName = scene.name;
+        PlayMusicForScene(currentSceneName);
+    }
+
+    public void PlayMusicForScene(string sceneName)
+    {
+        MusicTrack track = FindMusicTrack(sceneName);
+
+        if (track != null)
         {
-            musicSource.clip = s.clip;
+            musicSource.clip = track.clip;
             musicSource.Play();
         }
-    }
-
-    public void PlaySFX(string name)
-    {
-        Sound s = Array.Find(sfxSounds, x => x.name == name);
-
-        if (s == null)
-        {
-            Debug.LogError("SFX sound not found: " + name);
-        }
         else
         {
-            sfxSource.PlayOneShot(s.clip);
+            Debug.LogError("Music track not found for scene: " + sceneName);
         }
+    }
+
+    private MusicTrack FindMusicTrack(string sceneName)
+    {
+        return System.Array.Find(musicTracks, x => x.sceneName == sceneName);
     }
 }

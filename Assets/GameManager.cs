@@ -3,7 +3,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
-    private HealthBar healthBar;
+
+ private HealthBar healthBar; // Add this line
+
+
   [SerializeField] private List<Mole> moles;
 
   [Header("UI objects")]
@@ -23,8 +26,19 @@ public class GameManager : MonoBehaviour {
   private int score;
   private bool playing = false;
 
+  private void Start() {
+
+    // Find the HealthBar script in the scene
+    healthBar = FindObjectOfType<HealthBar>();
+}
+
   // This is public so the play button can see it.
   public void StartGame() {
+
+
+// Find the HealthBar script in the scene
+    healthBar = FindObjectOfType<HealthBar>();
+
     // Hide/show the UI elements we don't/do want to see.
     playButton.SetActive(false);
     outOfTimeText.SetActive(false);
@@ -46,11 +60,6 @@ public class GameManager : MonoBehaviour {
 
   public void GameOver(int type) {
 
-    if (healthBar != null)
-            {
-                healthBar.PerformAction(1); // Trigger the fun action
-            }
-
     // Show the message.
     if (type == 0) {
       outOfTimeText.SetActive(true);
@@ -64,6 +73,9 @@ public class GameManager : MonoBehaviour {
     // Stop the game and show the start UI.
     playing = false;
     playButton.SetActive(true);
+
+     // Call the PerformAction method to increase fun status
+    healthBar.PerformAction(1);
   }
 
   // Update is called once per frame
@@ -107,4 +119,5 @@ public class GameManager : MonoBehaviour {
     // Remove from active moles.
     currentMoles.Remove(moles[moleIndex]);
   }
+
 }

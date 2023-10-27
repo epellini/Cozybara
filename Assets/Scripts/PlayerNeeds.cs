@@ -7,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class HealthBar : MonoBehaviour
 {
-
     public Button back_btn; // Reference to the back button in the Inspector
     public Button feed_btn; // Reference to the Feed button in the Inspector
     public Button play_btn;
@@ -164,7 +163,7 @@ public class HealthBar : MonoBehaviour
 
             if (play_btn != null)
             {
-                play_btn.gameObject.SetActive(true);
+                play_btn.gameObject.SetActive(false);
             }
 
             if (sleep_btn != null)
@@ -179,7 +178,6 @@ public class HealthBar : MonoBehaviour
         }
 
     }
-
 
     // Singleton instance
     private static HealthBar instance;
@@ -201,6 +199,7 @@ public class HealthBar : MonoBehaviour
         InitializeUI();
         UpdateUI();
         DontDestroyOnLoad(gameObject);
+
 
         // Singleton pattern
         if (instance == null)
@@ -369,5 +368,8 @@ public class HealthBar : MonoBehaviour
                 needs[i] = MaxValue;
             }
         }
+        
     }
+
+
 }
