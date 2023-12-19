@@ -6,6 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 8ddae1f9bb5011f4ca4cf3c84639153e
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 8eab958b987532b4685c2bbd5bbc4df6
+  - enabled: 1
+    path: Assets/Scenes/Load.unity
+    guid: 4f7a1397a15b5714bbaf48356222de5f
+  - enabled: 1
+    path: Assets/Scenes/Map.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Test Extra.unity
+    guid: fd89e71ed57321744982ee104d81cd07
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 5e906600616396641bc82c881d6685e8
+  - enabled: 1
+    path: Assets/Scenes/HotSpring.unity
+    guid: c9f4296cc95271549b9640941af0149c
+  - enabled: 1
+    path: Assets/Scenes/MiniGameMenu.unity
+    guid: 82389f44aa143174da0fecbb1968acbc
+  - enabled: 1
+    path: Assets/Scenes/Help.unity
+    guid: 6c471aeec5140144bbd14860152d222a
+  - enabled: 1
+    path: Assets/Scenes/StackGame.unity
+    guid: da677dc2b7be67c43b95c44bf6714d2a
+  - enabled: 1
+    path: Assets/Scenes/Whack.unity
+    guid: d4150502b7e33d24c81d7d594f070f09
   m_configObjects: {}
